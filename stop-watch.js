@@ -60,16 +60,4 @@ resetBut.addEventListener(
     timer3.textContent = "00";
     startBut.textContent = "Start";
   }
-
-  // if (flag) {
-  //   clearInterval(intervalA);
-  //   clearInterval(intervalB);
-  //   clearInterval(intervalC);
-  // }
-  // flag = 0;
-  // a = b = c = 0;
-  // timer1.textContent = "00:";
-  // timer2.textContent = "00.";
-  // timer3.textContent = "00";
-  // startBut.textContent = "Start";
 );
