@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Stop watch</title>
+    <style>
+      body {
+        background-image: url("https://wallpapers.com/images/featured-full/nature-2ygv7ssy2k0lxlzu.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+      }
+      .div-container {
+        background-color: rgb(0, 0, 0, 0.3);
+        position: fixed;
+        text-align: center;
+        color: white;
+        width: 400px;
+        height: 300px;
+        margin: 40%;
+        margin-top: 13%;
+        backdrop-filter: blur(1px);
+      }
+      .heading {
+        margin-top: 10px;
+        font-size: 45px;
+        margin-bottom: 10px;
+      }
+      .timediv {
+        font-size: 0px;
+        margin-bottom: 30px;
+      }
+      .timer,
+      .timer2,
+      .timer3 {
+        display: inline-block;
+        font-size: 40px;
+      }
+
+      .div-container button {
+        font-size: 40px;
+        color: black;
+      }
+      .startbut {
+        width: 140px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="div-container">
+      <div>
+        <p class="heading">Stop Watch</p>
+        <div class="timediv">
+          <p class="timer js-timer1">00:</p>
+          <p class="timer2 js-timer2">00.</p>
+          <p class="timer3 js-timer3">00</p>
+        </div>
+        <br />
+        <button class="startbut js-start">Start</button>
+        <button class="js-reset">Reset</button>
+      </div>
+    </div>
+
+    <script src="stop-watch.js"></script>
+    <script>
+      /*
+      let startid;
+      let a=0;
+    //  let timer=document.querySelector('.js-timer')
+    //   let timer2=document.querySelector('.js-timer')
+    //   let timer3=document.querySelector('.js-timer3')
+      
+      let timerfor;
+      let flag=0;
+      function timerfun(sec,tim)
+      {
+        flag+=1
+        startid=setInterval(()=>
+          {
+            
+            //timer`${tim}`.innerHTML='00';
+
+            if (flag===1)
+            {
+              if(a===100)
+              {
+                // document.querySelector(`.js-timer${tim}`).innerHTML='00';
+                a=0;
+                a+=1
+              }
+           
+              if(a>=0 && a<10)
+              {
+                  document.querySelector(`.js-timer${tim}`).innerHTML=`0${a}`;
+                  a+=1
+              }
+              else
+              {
+                timerfor=document.querySelector(`.js-timer${tim}`)
+                timerfor.innerHTML=a+=1
+              
+                console.log(timerfor)
+              }
+            }
+          },sec) 
+                      
+          
+      }
+      let startBut=document.querySelector('.js-start');
+      // let startBut1=document.querySelector('.js-start');
+      // let startBut2=document.querySelector('.js-start');
+      let stopBut=document.querySelector('.js-stop');
+      function timerpart2(sec)
+      {
+        startBut.addEventListener('click',(event)=>
+        {
+          timerfun(sec,);
+          
+        }
+      )
+      }
+      
+      startBut.addEventListener('click',(event)=>
+            {
+        
+              timerfun(10,3)
+              // timerfun(1000,2)
+              
+            }
+          )
+
+    stopBut.addEventListener('click',()=>{
+      clearInterval(startid)
+      flag=0
+    })
+      */
+    </script>
+  </body>
+</html>
